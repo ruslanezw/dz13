@@ -1,0 +1,250 @@
+.wrapper-shop {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    display: flex;
+    gap: 50px;
+}
+
+.menu-shop {
+    width: 310px;
+    height: 774px;
+    background-color: #FBFBFB;
+    padding: 14px 24px 377px 18px;
+}
+
+.categories-shop {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.menu-link {
+    padding-top: 7px;
+    padding-left: 12px;
+}
+
+.link-shop {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3D3D3D;
+    display: block;
+    transition: 0.1s linear;
+}
+
+.link-shop:nth-child(9) {
+    margin-bottom: 0;
+}
+
+
+.link-shop:hover {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.advertising {
+    width: 310px;
+    height: 470px;
+    margin-top: 377px;
+    margin-left: -19px;
+}
+
+.content-shop {
+    width: 840px;
+    flex-grow: 1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 31px;
+}
+
+.link-navig:nth-child(3) {
+    margin-right: 0;
+}
+
+.link-navig {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-right: 40px;
+    transition: 0.3s linear;
+}
+
+.link-navig:hover {
+    font-weight: 700;
+    margin-right: 37px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #46A358;
+    color: #46A358;
+}
+
+.short {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.short-click {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+    padding-left: 8px;
+}
+
+.cards-shop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 258px;
+    margin-right: 33px;
+    margin-bottom: 70px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-fon {
+    background-color: #FBFBFB;
+    width: 258px;
+    height: 300px;
+    padding: 31px 4px 19px;
+    margin-bottom: 12px;
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card:nth-child(n+7) {
+    margin-bottom: 0;
+}
+
+.img-card {
+    width: 250px;
+    height: 250px;
+    mix-blend-mode: multiply;
+}
+
+.product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.card-flash {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    transition: 1s;
+}
+
+.button-card {
+    border: 0;
+    padding: 8px 6px;
+    border-radius: 4px;
+    background: transparent;
+
+    .icon-hover:hover {
+        stroke: #46A358;
+        transform: scale(1.5);
+        transition: 0.3s linear;
+    }
+}
+
+.card:hover .card-flash {
+    bottom: 57px;
+}
+
+.card::before {
+    content: "";
+    height: 1px;
+    background-color: #46A358;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.card:hover::before {
+    display: block;
+}
+
+.sale {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    padding: 8px 8px;
+    background-color: #46A358;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    width: 80px;
+}
+
+.price-sale {
+    position: absolute;
+    bottom: 0;
+    right: 112px;
+    color: #A5A5A5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: line-through;
+}
+
+.next-link {
+    display: flex;
+    justify-content: end;
+    margin-top: 90px;
+    gap: 10px;
+}
+
+.linked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #3D3D3D;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.linked:hover {
+    background-color: #46A358;
+    font-weight: 700;
+    color: #FFFFFF;
+}

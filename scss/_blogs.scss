@@ -1,0 +1,214 @@
+.wrapper-blogs {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-flowers {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 146px;
+}
+
+.flower-blog {
+    display: flex;
+    align-items: end;
+    background-color: #FBFBFB;
+    width: 586px;
+    height: 250px;
+}
+
+.img-flower {
+    width: 287px;
+    height: 292px;
+    padding-bottom: 10px;
+    mix-blend-mode: multiply;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3D3D3D;
+    margin-bottom: 9px;
+    text-align: right;
+}
+
+.blog-descriptions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.flowers-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 89px;
+    padding-right: 30px;
+    padding-bottom: 46px;
+    width: 299px;
+}
+
+.findmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 140px;
+    height: 40px;
+    background-color: #46A358;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 0.5s linear;
+}
+
+.findmore:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.blogs-tittle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 138px;
+}
+
+.tittle-text1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #3D3D3D;
+}
+
+.tittle-text2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+}
+
+.blog-post {
+    display: flex;
+    gap: 43px;
+    padding-top: 35px;
+}
+
+.img-post {
+    width: 268px;
+    height: 195px;
+}
+
+.post-info {
+    padding: 9px 13px 12px;
+}
+
+.post-date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+    margin-bottom: 4px;
+}
+
+.post-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D;
+    margin-bottom: 4px;
+}
+
+.post-descriptions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-bottom: 9px;
+}
+
+.post-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.post {
+    background-color: #FBFBFB;
+}
+
+.post-link:hover {
+    color: #46A358;
+    stroke: #46A358;
+}
+
+.spinner {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 255, 255, 0.695);
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding: 2px;
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+.spin1 {
+    border: 2px solid rgb(250, 130, 232);
+    animation-delay: 0.5s;
+}
+
+.spin2 {
+    border: 2px solid rgb(233, 246, 3);
+    animation-delay: 1s;
+}
+
+.spin3 {
+    border: 2px solid rgb(10, 176, 241);
+    animation-delay: 1.5s;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding: 2px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

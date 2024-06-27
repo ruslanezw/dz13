@@ -1,0 +1,253 @@
+.wrapper-footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.offers-footer {
+    display: flex;
+    background-color: #FBFBFB;
+    padding: 25px 25px 24px 23px;
+    gap: 62px;
+}
+
+.offers-post {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    background-color: #46A3581A;
+    width: 1px;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+}
+
+.offers-post:nth-child(-n+2) {
+    padding-right: 30px;
+}
+
+.offers-tittle {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.offers-descriptions {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.offers-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers-tittle-email {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.offers-descriptions-email {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 18px;
+}
+
+.btn-email {
+    width: 85px;
+    height: 40px;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #46A358;
+}
+
+.input-footer {
+    width: 354px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 20px 0px #0000000F;
+}
+
+.input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #ACACAC;
+    padding-left: 11px;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    border-top: 1px solid #46A358;
+    border-bottom: 1px solid #46A358;
+    padding: 25px 22px 19px 23px;
+}
+
+.logo-contact-green {
+    width: 150px;
+}
+
+.contact-green {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-text {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: left;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid #46A35833;
+    padding-bottom: 6px;
+}
+
+.menu-footer-account {
+    display: flex;
+    flex-direction: column;
+    padding: 33px 164px 29px 25px;
+    gap: 8px;
+}
+
+.menu-footer-help {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    padding-right: 129px;
+    padding-bottom: 29px;
+    gap: 8px;
+}
+
+.menu-footer-categories {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    padding-right: 173px;
+    padding-bottom: 29px;
+    gap: 8px;
+}
+
+.categories-menu-footer {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #3D3D3D;
+}
+
+.link-footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3D3D3D;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s linear;
+}
+
+.link-footer:hover {
+    transform: scale(1.1);
+    color: #46A358;
+}
+
+.footer-titles {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #3D3D3D;
+    display: block;
+}
+
+.menu-footer-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding-top: 33px;
+    padding-bottom: 47px;
+}
+
+.menu-footer-media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-media {
+    display: flex;
+    gap: 10px;
+}
+
+.media-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #46A35833;
+    transition: 0.3s linear;
+}
+
+.media-item:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-footer-accept {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.date-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+.date-greenshope {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3D3D3D;
+    text-decoration: none;
+}
